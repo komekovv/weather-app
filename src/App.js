@@ -34,6 +34,7 @@ function App() {
           }
         });
         const jsonData = await response.json();
+        console.log(jsonData);
         const neededData = {
           city: jsonData.location.name,
           time: formatDate(jsonData.location.localtime),
