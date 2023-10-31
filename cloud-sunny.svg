@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="81" height="75" viewBox="0 0 81 75">
+  <defs>
+    <style>
+      .cls-1, .cls-3 {
+        fill: #fff;
+      }
+
+      .cls-1 {
+        stroke: #707070;
+      }
+
+      .cls-2 {
+        clip-path: url(#clip-path);
+      }
+
+      .cls-4 {
+        fill: #e8ff00;
+      }
+    </style>
+    <clipPath id="clip-path">
+      <rect id="Rectangle_8" data-name="Rectangle 8" class="cls-1" width="81" height="75" transform="translate(395 591)"/>
+    </clipPath>
+  </defs>
+  <g id="Mask_Group_2" data-name="Mask Group 2" class="cls-2" transform="translate(-395 -591)">
+    <g id="cloud-sun-fill" transform="translate(395.506 586)">
+      <path id="Path_1" data-name="Path 1" class="cls-3" d="M57.365,55a22.5,22.5,0,0,0-43.6-4.95A15,15,0,0,0,15,80H57.5a12.5,12.5,0,0,0,0-25Z"/>
+      <path id="Path_2" data-name="Path 2" class="cls-4" d="M52.5,7.5a2.5,2.5,0,0,0-5,0v5a2.5,2.5,0,0,0,5,0Zm18.715,9.82a2.5,2.5,0,1,0-3.535-3.535L64.14,17.32a2.5,2.5,0,1,0,3.54,3.54ZM32.32,13.785a2.5,2.5,0,1,0-3.535,3.535l3.535,3.54a2.5,2.5,0,1,0,3.54-3.54Zm8.67,16.87a10,10,0,1,1,16.48,10.99,27.512,27.512,0,0,1,2.58,4.49A15,15,0,1,0,35.85,30.01a27.582,27.582,0,0,1,5.14.645Zm22.42,20.37a17.546,17.546,0,0,1,7.61,5.36,2.5,2.5,0,0,0,.195-3.71L67.68,49.14a2.5,2.5,0,0,0-4.27,1.885ZM72.5,32.5a2.5,2.5,0,0,0,0,5h5a2.5,2.5,0,0,0,0-5Z"/>
+    </g>
+  </g>
+</svg>
