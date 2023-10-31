@@ -4,19 +4,10 @@ import { sunny } from "./assets";
 
 function App() {
 
-  const formatDate = (originalDate) => {
-    
-    const [datePart, timePart] = originalDate.split(' ');
-    const [ month, day] = datePart.split('-');
-    const [hour, minutes] = timePart.split(':');
-    const monthNames = ['Jan', 'Feb', 'Mar', 'Apr', 'May', 'Jun', 'Jul', 'Aug', 'Sep', 'Oct', 'Nov', 'Dec'];
-    const formattedMonth = monthNames[parseInt(month) - 1];
-    const amOrPm = parseInt(hour) >= 12 ? 'PM' : 'AM';
-
-    const formattedHour = (parseInt(hour) % 12) || 12;
-    const formattedDate = `${formattedMonth} ${parseInt(day)}, ${formattedHour}:${minutes} ${amOrPm}`;
-  
-    return formattedDate;
+  const formatDate = (dateString) => {
+    const options = { month: 'short', day: 'numeric', hour: 'numeric', minute: 'numeric' };
+    const date = new Date(dateString);
+    return date.toLocaleString('en-US', options);
   }
 
   const [weatherData, setWeatherData] = useState(null);
